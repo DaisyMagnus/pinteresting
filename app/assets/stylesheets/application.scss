@@ -1,5 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito|Oswald|Droid+Serif);
+
+$body-bg: 			#CCC3333;
+$font-family-sans-serif: 			'Nunito', 'Oswald', 'Droid Serif', serif;
+$jumbotron-padding: 		10px;
+$jumbotron-color: 	#000099; 
+$jumbotron-bg: #CCCFFF; 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+h1 {text-align: center}
+p {text-align: center}
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
