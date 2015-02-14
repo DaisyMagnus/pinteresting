@@ -1,10 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito|Oswald|Droid+Serif);
 
-$body-bg: 			#CCC3333;
-$font-family-sans-serif: 			'Nunito', 'Oswald', 'Droid Serif', serif;
-$jumbotron-padding: 		10px;
-$jumbotron-color: 	#000099; 
-$jumbotron-bg: #CCCFFF; 
+$body-bg: 			#FFFFFF;
+$font-family-sans-serif: 'Nunito', 'Oswald', 'Droid Serif', serif;
+$navbar-default-brand-color:      #336699;
+$jumbotron-padding:   30px;
+$jumbotron-color: 	#336699; 
+$jumbotron-bg: 		#CCCCCC; 
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
