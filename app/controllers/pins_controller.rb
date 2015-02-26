@@ -37,11 +37,9 @@ class PinsController < ApplicationController
   # PATCH/PUT /pins/1.json
   def update
       if @pin.update(pin_params)
-        redirect_to @pin, notice: 'Pin was successfully updated.' }
-        
+        redirect_to @pin, notice: 'Pin was successfully updated.'
       else
         render action: 'edit'
-        
       end
     end
 
