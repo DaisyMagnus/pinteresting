@@ -1,9 +1,20 @@
-
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
 
-
 @import 'bootstrap-sass';
-@import 'bootstrap/glyphicons-halflings-regular.eot'
+@import 'bootstrap/glyphicons-halflings-regular.eot';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+h1 {text-align: center}
+p {text-align: center}
+
+@import "url(http://fonts.googleapis.com/css?family=Nunito|Oswald|Droid+Serif)";
+$body-bg:       #FFFFFF;
+$font-family-sans-serif: 'Nunito', 'Oswald', 'Droid Serif', serif;
+$navbar-default-brand-color:      #800080;
+$jumbotron-padding:   30px;
+$jumbotron-color:   #800080; 
+$jumbotron-bg:    #CCCCCC; 

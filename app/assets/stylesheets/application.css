@@ -1,20 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Nunito|Oswald|Droid+Serif);
-
-$body-bg: 			#FFFFFF;
-$font-family-sans-serif: 'Nunito', 'Oswald', 'Droid Serif', serif;
-$navbar-default-brand-color:      #800080;
-$jumbotron-padding:   30px;
-$jumbotron-color: 	#800080; 
-$jumbotron-bg: 		#CCCCCC; 
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-h1 {text-align: center}
-p {text-align: center}
-
-
-
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -27,6 +10,27 @@ p {text-align: center}
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require 'masonry/transitions'
+ *= require_tree .
+
  */
+
+@import 'bootstrap-sass';
+@import 'bootstrap/glyphicons-halflings-regular.eot'
+
+import url(http://fonts.googleapis.com/css?family=Nunito|Oswald|Droid+Serif);
+
+$body-bg:       #FFFFFF;
+$font-family-sans-serif: 'Nunito', 'Oswald', 'Droid Serif', serif;
+$navbar-default-brand-color:      #800080;
+$jumbotron-padding:   30px;
+$jumbotron-color:   #800080; 
+$jumbotron-bg:    #CCCCCC; 
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1 {text-align: center}
+p {text-align: center}
+
