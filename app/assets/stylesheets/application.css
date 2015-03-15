@@ -16,21 +16,4 @@
 
  */
 
-@import 'bootstrap-sass';
-@import 'bootstrap/glyphicons-halflings-regular.eot'
-
-import url(http://fonts.googleapis.com/css?family=Nunito|Oswald|Droid+Serif);
-
-$body-bg:       #FFFFFF;
-$font-family-sans-serif: 'Nunito', 'Oswald', 'Droid Serif', serif;
-$navbar-default-brand-color:      #800080;
-$jumbotron-padding:   30px;
-$jumbotron-color:   #800080; 
-$jumbotron-bg:    #CCCCCC; 
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-h1 {text-align: center}
-p {text-align: center}
 
